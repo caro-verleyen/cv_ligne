@@ -84,3 +84,9 @@ h3{
 .language{
     text-align: left;
 }
+.right-column{
+    grid-column: 2/span 2;
+    flex-direction: column;
+    display: flex;
+    padding-left: 20px;
+}
