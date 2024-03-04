@@ -1,16 +1,28 @@
-@import url(../assests.css/Raleway/Raleway-VariableFont_wght.ttf);
-
+@import url(./assests.css/Raleway/Raleway-VariableFont_wght.ttf);
+body{
+    font-size: 0.85rem;
+    font-family:"Raleway-VariableFont_wght"Verdana, Geneva, Tahoma, sans-serif;
+    border-color: black solid medium;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 05%;
+    margin-bottom: 05%;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
 #cv-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "left-column right-column right-column";
     width: 1160px;
-    margin: 100px auto;
+   
     flex-direction: column;
     align-content: center;
-    border-color: black solid medium;
+    
     grid-template-columns: repeat(3,300px);
-    font-size: 0,5rem;
+    font-size: 0,75rem;
     font-weight: normal;
     
     
@@ -23,6 +35,8 @@
     flex-direction: column;
     font-family:"Lato-regular",Verdana, Geneva, Tahoma, sans-serif ;
     color: white; 
+    width: 1160px;
+    position: relative;
     
 }
 .figure{
@@ -56,6 +70,7 @@ h2{
     justify-content: space-between;
     font-family: "Raleway-VariableFont_wght",Verdana, Geneva, Tahoma, sans-serif;
     padding-top:15px ;
+    width: 1130px;
     
 }
 /*partie gauche*/
@@ -67,6 +82,8 @@ h2{
     display: block;
     text-align: left;
     padding-right: 15px;
+    width: 285px;
+    height: 1000px;
     
 
 }
@@ -76,17 +93,45 @@ h3{
     font-family:"Lato-regular",Verdana, Geneva, Tahoma, sans-serif ;
     text-indent: 5px;
 }
-.about{
+.left-column__about{
     text-indent: 10px;
     word-break: overlow-wrap;
     
 }
-.language{
+.left-column__language{
     text-align: left;
 }
-.right-column{
+.main{
     grid-column: 2/span 2;
     flex-direction: column;
     display: flex;
     padding-left: 20px;
+    width: 875px;
+    height:1000px;
+    
+    
+    
+}
+.main__work{
+    width: 580px;
+    min-height: 600px;
+}
+.main__diplomes{
+    width: 580px;
+    height: 200px; 
+}
+.main__skills{
+    width: 580px;
+    height: 150px; 
+}
+.footer{
+    display: grid;
+    height: 80px;
+    background-color:#782221;
+    grid-column: 2/span 3;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1130px;
+    font-family: "Raleway-VariableFont_wght",Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:15px ; 
 }
