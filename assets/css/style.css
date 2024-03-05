@@ -38,20 +38,27 @@ body{
     width: 1160px;
     position: relative;
     
+    
 }
 .figure{
-    width: 150px;
-    height: 150px;
+    width: 1160px;
+    height: 300px;
+    
 }
+.image :hover{
+    cursor: zoom-in;
+}
+
 img{
     width: 150px;
-    height: 150px;
+    max-width: min-content;
     object-fit: cover;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
     display: block;
     box-shadow: 0 0 10px black;
+   
 }
 h1{
     text-align: center;
@@ -72,6 +79,13 @@ h2{
     padding-top:15px ;
     width: 1130px;
     
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 /*partie gauche*/
 .left-column{
@@ -83,7 +97,7 @@ h2{
     text-align: left;
     padding-right: 15px;
     width: 285px;
-    height: 1000px;
+    height: 900px;
     
 
 }
@@ -107,25 +121,27 @@ h3{
     display: flex;
     padding-left: 20px;
     width: 875px;
-    height:1000px;
+    height:900px;
     
     
     
 }
 .main__work{
     width: 580px;
-    min-height: 600px;
+    min-height: 500px;
 }
 .main__diplomes{
     width: 580px;
-    height: 200px; 
+    height: 160px; 
 }
 .main__skills{
     width: 580px;
-    height: 150px; 
+    height: 50px; 
 }
+
+/*bas de page*/
 .footer{
-    display: grid;
+    display: flex;
     height: 80px;
     background-color:#782221;
     grid-column: 2/span 3;
@@ -134,4 +150,19 @@ h3{
     width: 1130px;
     font-family: "Raleway-VariableFont_wght",Verdana, Geneva, Tahoma, sans-serif;
     padding-top:15px ; 
+    justify-content: center;
+
+}    
+
+.twitter :hover{
+    opacity: 75%;
+} 
+.linkedin :hover{
+    opacity:75%
 }
+.github{
+    opacity:75%;
+}    
+
+
+    
