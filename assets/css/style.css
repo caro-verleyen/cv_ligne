@@ -68,11 +68,11 @@ h2{
     background-color:#2c1d27;
     grid-column: 1/span 3;
     padding-left: 30px;
-    padding-right: 15px;
+    padding-right: 30px;
     justify-content: space-between;
     font-family:"Raleway-Medium", Geneva, Tahoma, sans-serif;
     padding-top:20px ;
-    width: 1116px;
+    width: 1100px;
     font-style: italic;
     
     
@@ -93,7 +93,7 @@ a:hover{
     text-align: left;
     padding-right: 15px;
     width: 285px;
-    height: 900px;
+    height: 950px;
     padding-left: 15px;
     
 
@@ -115,40 +115,41 @@ h3{
 .left-column__language{
     text-align: left;
 }
+/*partie droite*/
 .main{
     grid-column: 2/span 2;
     flex-direction: column;
     display: flex;
     padding-left: 30px;
-    width: 875px;
-    height: 1000px;
+    width: 870px;
+    height: 1020px;
     padding-right: 30px;
-    block-size: 900px ;
+    block-size: 950px ;
     font-family:"Raleway-Medium", Geneva, Tahoma, sans-serif;
     
     }
 .main__work{
-    width: 580px;
+    width: 810px;
     min-height: 500px;
 }
 .main__diplomes{
-    width: 580px;
-    height: 170px; 
+    
+    width: 810px;
+     
+    
 }
 .main__skills{
-    width: 580px;
-    height: 90px; 
-}
-
-.postes{
-    scrollbar-color: #782221 #782221;
-    overflow: hidden;
+    width: 810px;
      
 }
-
-.postes:hover{
+.scroll{
+    scrollbar-color: #782221 #782221;
+    overflow: hidden;
+}
+.scroll:hover{
     overflow-y: scroll;
 }
+
 
 /*bas de page*/
 .footer{
